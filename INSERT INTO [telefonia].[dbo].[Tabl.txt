@@ -1,0 +1,28 @@
+INSERT INTO [telefonia].[dbo].[Table_1] (NOME, MODELLO, PREZZO, IMMAGINE, DESCRIZIONE)
+VALUES
+    ('Samsung Galaxy S21', 'Galaxy S21', 799.99, 'https://cf6.certideal.com/32482-thickbox_default/samsung-galaxy-s21-128-gb-viola.jpg', 'Un potente smartphone con fotocamera avanzata.'),
+    ('iPhone 13', 'iPhone 13', 899.99, 'https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-13-pro-max-sierra-blue.png?v=42', 'L''ultimo modello di iPhone con nuove funzionalità.'),
+    ('Google Pixel 6', 'Pixel 6', 699.99, 'https://files.refurbed.com/ii/google-pixel-6-1647525008.jpg?t=fitdesign&h=600&w=800', 'Telefonate chiare e immagini nitide con la fotocamera Pixel.'),
+    ('OnePlus 9', 'OnePlus 9', 749.99, 'https://hd2.tudocdn.net/965383?w=1000&fit=clip', 'Eccellente performance e schermo fluido.'),
+    ('Xiaomi Mi 11', 'Mi 11', 649.99, 'https://www.notebookcheck.it/uploads/tx_nbc2/XiaomiMi11Pro.jpg', 'Un telefono Android con caratteristiche di fascia alta.'),
+    ('Huawei P40', 'P40', 599.99, 'https://immagini.trovaprezzi.it/varianti/huawei_p40.jpg', 'Design elegante e potente sistema di fotocamere.'),
+    ('Sony Xperia 5 II', 'Xperia 5 II', 799.99, 'https://cdn.idealo.com/folder/Product/6765/2/6765218/s10_produktbild_gross/sony-xperia-5.jpg', 'Esperienza multimediale avanzata con schermo OLED.'),
+    ('Motorola Moto G Power', 'Moto G Power', 249.99, 'https://www.sbsmobile.com/ita/195549-thickbox_default/cover-sensity-per-motorola-moto-g5g-plus.jpg', 'Batteria a lunga durata e prestazioni solide.'),
+  
+    ('Samsung Galaxy A52', 'Galaxy A52', 349.99, 'https://www.tecnosell.com/media/catalog/product/cache/60c31028333b516fd0f8945d994bb7aa/b/k/bk1_7_22.jpg', 'Un telefono di fascia media con fotocamera versatile.'),
+    ('iPhone SE', 'iPhone SE', 399.99, 'https://www.smartcellular.it/media/catalog/product/cache/bf0ca523f7526fad50b11dad4e4bee43/b/_/b_15_3.jpg', 'L''iPhone compatto e potente.'),
+    ('Google Pixel 5', 'Pixel 5', 599.99, 'https://m.media-amazon.com/images/I/81fB+ybfoKL._AC_UF1000,1000_QL80_.jpg', 'Equilibrio perfetto tra prestazioni e prezzo.'),
+    ('OnePlus Nord', 'OnePlus Nord', 499.99, 'https://www.tecnosell.com/media/catalog/product/cache/60c31028333b516fd0f8945d994bb7aa/v/e/ver1_2_3.jpg', 'Un telefono accessibile con buone prestazioni.'),
+    ('Xiaomi Redmi Note 10', 'Redmi Note 10', 279.99, 'https://files.refurbed.com/ii/samsung-galaxy-note-10-lite-1666676402.jpg', 'Un dispositivo budget con display vivido.'),
+    ('Huawei Mate 40 Pro', 'Mate 40 Pro', 1099.99, 'https://files.refurbed.com/ii/huawei-p40-pro-1590138318.jpg?t=fitdesign&h=600&w=800', 'Un telefono Huawei di fascia alta con tecnologia Leica.'),
+    ('Sony Xperia 1 III', 'Xperia 1 III', 1199.99, 'https://cdn.idealo.com/folder/Product/6482/5/6482504/s10_produktbild_gross_2/sony-xperia-1.jpg', 'Un telefono Sony con display 4K.'),
+    ('Motorola Edge', 'Motorola Edge', 499.99, 'https://www.e-stayon.com/images/thumbs/0237724_motorola-edge-30-neo-159-cm-628-doppia-sim-android-12-5g-usb-tipo-c-8-gb-256-gb-4020-mah-nero.jpeg', 'Bordi curvi e prestazioni affidabili.'),
+    
+    ('Samsung Galaxy Z Fold 3', 'Galaxy Z Fold 3', 1799.99, 'https://cdn.idealo.com/folder/Product/201402/3/201402313/s10_produktbild_gross/samsung-galaxy-z-fold-3.jpg', 'Lo smartphone pieghevole di Samsung.'),
+    ('iPhone 13 Pro MAX', 'iPhone 13 Pro', 1099.99, 'https://cdn.alloallo.media/catalog/product/apple/iphone/iphone-13-pro-max/iphone-13-pro-max-gold.jpg', 'Il modello Pro dell''iPhone con fotocamera avanzata.'),
+    ('Google Pixel 8 Pro', 'Pixel 6 Pro', 899.99, 'https://lh3.googleusercontent.com/_bxc7N1a_FBKCNPjhJxQWXiVs6T9e4Wrz6EQwLOKbXEKl34_skW4OyTUUrMXH8l89g3h_pRGn8MfMHjT_vXX9Y1faXZljZTjHqQ=rw-e365-nu-w1050', 'Versione Pro del Pixel con schermo più grande.'),
+    ('OnePlus 9 Pro', 'OnePlus 9 Pro', 899.99, 'https://www.smartworld.it/wp-content/uploads/mobile/2021/03/oneplus_9.png', 'Prestazioni superiori e schermo fluido.'),
+    ('Xiaomi Mi 11 Ultra', 'Mi 11 Ultra', 1299.99, 'https://www.tecnosell.com/media/catalog/product/cache/dc9ef63791129c4f1f95b5ecbb3d88d1/m/i/mi11lite_blue1.png', 'Il flagship di Xiaomi con fotocamera potente.'),
+    ('Huawei P50 Pro', 'P50 Pro', 1299.99, 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/mate50-pro/img/kv/sp-1.jpg', 'Ultimo modello Huawei con tecnologia fotografica avanzata.'),
+    ('Sony Xperia 10 III', 'Xperia 10 III', 499.99, 'https://www.tecnosell.com/media/catalog/product/cache/dc9ef63791129c4f1f95b5ecbb3d88d1/w/h/wh1_3_4.jpg', 'Un telefono Sony di fascia media con design elegante.'),
+    ('Motorola Razr 5G', 'Razr 5G', 1399.99, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-_sMVJToYCNq4jAjiTphyDMYX9lfzXzthIw&usqp=CAU', 'Il telefono flip 5G di Motorola.');
