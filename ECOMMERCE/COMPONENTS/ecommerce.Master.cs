@@ -47,5 +47,18 @@ namespace ECOMMERCE.COMPONENTS
                 LblCartTotal.Text = "Totale Carrello: " + total.ToString("C"); // Formattato come valuta (es. €100.00)
             }
         }
+        protected void ButtonSvuotaCarrello_Click(object sender, EventArgs e)
+        {
+            // Verifica se la sessione CARRELLO è già inizializzata come una lista
+            if (Session["CARRELLO"] != null)
+            {
+                // Svuota la lista nel carrello
+                List<string> carrelloAttuale = (List<string>)Session["CARRELLO"];
+                carrelloAttuale.Clear();
+            }
+
+            // Fai il redirect alla stessa pagina per forzare l'aggiornamento
+            Response.Redirect(Request.Url.AbsoluteUri);
+        }
     }
 }

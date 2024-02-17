@@ -67,8 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assetts\StyleSheet1.css" />
     <Content Include="COMPONENTS\HOME.aspx" />
     <Content Include="COMPONENTS\details.aspx" />
+    <Content Include="COMPONENTS\NotFound.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -93,6 +95,13 @@
     </Compile>
     <Compile Include="COMPONENTS\details.aspx.designer.cs">
       <DependentUpon>details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="COMPONENTS\NotFound.aspx.cs">
+      <DependentUpon>NotFound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="COMPONENTS\NotFound.aspx.designer.cs">
+      <DependentUpon>NotFound.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
